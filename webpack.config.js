@@ -25,7 +25,7 @@ module.exports = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: './public/index.html', to: './dist/index.html', toType: 'file' }
+        { from: './public/index.html', to: './index.html', toType: 'file' }
       ],
     }),
   ],
