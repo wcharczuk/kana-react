@@ -5,10 +5,10 @@ class Stats extends React.Component<IStatsProps, any> {
 	constructor(props: IStatsProps) {
 		super(props)
 		this.state = {}
-    }
+	}
 	render() {
 		return (
-			<h1>Status</h1>
+			<h1>Stats</h1>
 		)
 	}
 }

@@ -1,16 +1,27 @@
 import * as React from 'react';
-import './Quiz.css';
+import './Index.css';
+
+declare interface IQuizProps {
+    MaxItems: number
+
+}
 
 class Quiz extends React.Component<IQuizProps, any> {
-	constructor(props: IQuizProps) {
-		super(props)
-		this.state = {}
-	}
-	render() {
-		return (
-			<h1>Quiz</h1>
-		)
-	}
+    private dataManager: IModelManager
+    constructor(props: IQuizProps) {
+        super(props)
+        this.state = {}
+    }
+    render() {
+
+        // handle game state
+        // pull prompt
+        // state transitions triggered by prompt submit
+
+        return (
+            <h1>Quiz</h1>
+        )
+    }
 }
 
 export default Quiz;

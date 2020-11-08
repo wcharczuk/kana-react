@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+}
+
+.nav .nav-logo {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #efefef;
+    margin-right: 1rem;
+}
+
+.nav .nav-link{
+    font-weight: 200;
+    font-size: 1rem;
+    color: #efefef;
+    text-decoration: underline;
+}
